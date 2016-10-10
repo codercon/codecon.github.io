@@ -1,50 +1,115 @@
-(cc.html)
-<!doctype html>
-<html>
-	<head>
-		<title> CoderCon</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<meta charset="UTF-8">
-	</head>
-	<body>
-<div id="navig">
-		<ul>
-		<li><a href = "about.htm"> About </a></li>
-		<li><a href= "learnmore.htm">Learn More</a></li>
-		<li><a href="register.htm">Register</a></li>
-		<li><a href="contactus.htm">Contact Us </a></li>
-<li><a href="sponsors.htm">Sponsors </a></li>
-</ul>
-</div>
-		<h1> Coder Con </h1>
-		<h3> May 27-May 28, 2017 </h3>
-<h3> Location TBD </h3>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-	</body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example of Bootstrap 3 Carousel</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style type="text/css">
+.carousel{
+    background: #C9C9FF;
+    margin-top: 0px;
+	height: 1000px;
+	width: 1400px;
+	overflow: hidden;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+.hi{
+	margin: 0px;
+}
+.item{
+	
+}
+.bb{
+	height: 1000px;
+	width: 1400px;
+	overflow: hidden;
+}
+}
+</style>
+</head>
+<body>
+<img src = "http://www.apecs.is/images/Articles/Logos/Homepage_symbol_copy.jpg" id="bb">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container-fluid">
+			<div class="navbar-header">
+			  <a class="navbar-brand" href="#">Coder Con</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href = "about.htm"> About </a></li>
+				<li class="active"><a href= "cc.htm">Learn More</a></li>
+				<li><a href="register.htm">Register</a></li>
+				<li><a href="contactus.htm">Contact Us </a></li>
+			</ul>
+		  </div>
+</nav>
+<div class="hi">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="myCarousel" data-slide-to="4"></li>
+        </ol>   
+        <!-- Wrapper for carousel items -->
+        <div class="carousel-inner">
+            <div class="item active">
+				<div class="container">
+					  <h2>Schedule</h2>
+					  <table class="table table-striped">
+						<thead>
+						  <tr>
+							<th>Group Events</th>
+							<th>Individual Events</th>
+						  </tr>
+						</thead>
+						<tbody>
+						  <tr>
+							<td>hi</td>
+							<td>hi</td>
+						  </tr>
+						  <tr>
+							<td>hi</td>
+							<td>bye</td>
+						  </tr>
+						  <tr>
+							<td>hi</td>
+							<td>bye</td>
+						  </tr>
+						</tbody>
+					  </table>
+					</div>
 
-(about.htm)
-<!doctype html>
-<html>
-	<head>
-		<title>CoderCon</title>
-		<meta charset="UTF-8">
-	</head>
-	<body>
-<div id="navig">
-		<ul>
-		<li><a href = "about.htm"> About </a></li>
-		<li><a href= "learnmore.htm">Learn More</a></li>
-		<li><a href="register.htm">Register</a></li>
-		<li><a href="contactus.htm">Contact Us </a></li>
-<li><a href="sponsors.htm">Sponsors </a></li>
-</ul>
+            </div>
+            <div class="item">
+                <h3> Rules <h3>
+            </div>
+            <div class="item">
+                  <h3> About <h3>
+            </div>
+			<div class="item">
+                  <h3> Contact Us <h3>
+            </div>
+        </div>
+        <!-- Carousel controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
 </div>
-	<h1> What is Coder Con? </h1>
-	<h2> Coder Con is </h2>
 </body>
-</html>
-
+</html>                                		
 (learnmore.htm)
 <!doctype html>
 <html>
